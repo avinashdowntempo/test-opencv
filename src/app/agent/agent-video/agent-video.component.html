@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-body">
+    <h3 class="lead">Session Id: {{mySessionId}}</h3>
+    <h3 class="lead">Participant Id: {{myUserName}}</h3>
+    <h3 class="lead">detected lights: {{lights}}</h3>
+    <h5 class="card-title">MY Video</h5>
+    <canvas #canvasOutput width="320" height="240" id="canvasOutput"></canvas>
+    <video #localvideo width="500" height="500" controls>
+      Your browser does not support the video tag.
+    </video>
+    <img #imgelement src="/assets/images/test.jpg">
+    <video #customervideo width="320" height="240"></video>
+
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
